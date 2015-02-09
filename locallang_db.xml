@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 't3sportsextended'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_cfcleague_games.tx_t3sportsextended_report_headline">Überschrift</label>
+			<label index="tx_cfcleague_games.tx_t3sportsextended_report_subtitle">Untertitel</label>
+			<label index="tx_cfcleague_games.tx_t3sportsextended_games_coach_home_static">Heimtrainer</label>
+			<label index="tx_cfcleague_games.tx_t3sportsextended_games_coach_guest_static">Gasttrainer</label>
+			<label index="tx_cfcleague_games.tx_t3sportsextended_games_topgame">Topspiel</label>
+			<label index="tx_cfcleague_profiles.tx_t3sportsextended_profiles_phone">Telefonnummer</label>
+		</languageKey>
+	</data>
+</T3locallang>
