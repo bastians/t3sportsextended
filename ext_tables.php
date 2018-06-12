@@ -14,9 +14,8 @@ $tempColumns = array (
 	),
 );
 
-t3lib_div::loadTCA('tx_cfcleague_games');
-t3lib_extMgm::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
-t3lib_extMgm::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_games_topgame;;;;1-1-1','','after:match_no');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_games_topgame;;;;1-1-1','','after:match_no');
 
 // Erweiterung der Detailansicht eines Spieles um ein statisches Feld Heimtrainer
 $tempColumns = array (
@@ -32,9 +31,8 @@ $tempColumns = array (
 	),
 );
 
-t3lib_div::loadTCA('tx_cfcleague_games');
-t3lib_extMgm::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
-t3lib_extMgm::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_games_coach_home_static;;;;1-1-1','','after:substitutes_home_stat');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_games_coach_home_static;;;;1-1-1','','after:substitutes_home_stat');
 
 // Erweiterung der Detailansicht eines Spieles um ein statisches Feld Gasttrainer
 $tempColumns = array (
@@ -50,9 +48,8 @@ $tempColumns = array (
 	),
 );
 
-t3lib_div::loadTCA('tx_cfcleague_games');
-t3lib_extMgm::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
-t3lib_extMgm::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_games_coach_guest_static;;;;1-1-1','','after:substitutes_guest_stat');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_games_coach_guest_static;;;;1-1-1','','after:substitutes_guest_stat');
 
 // Erweiterung der Detailansicht eines Spieles um eine Überschrift und einen Untertitel beim Spielbericht
 $tempColumns = array (
@@ -76,9 +73,8 @@ $tempColumns = array (
 	),
 );
 
-t3lib_div::loadTCA('tx_cfcleague_games');
-t3lib_extMgm::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
-t3lib_extMgm::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_report_headline;;;;1-1-1, tx_t3sportsextended_report_subtitle','','before:game_report');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_cfcleague_games',$tempColumns,1);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_cfcleague_games','tx_t3sportsextended_report_headline;;;;1-1-1, tx_t3sportsextended_report_subtitle','','before:game_report');
 
 // Erweiterung der Detailansicht einer Person um ein Feld für die Telefonnummer
 $tempColumns = array (
@@ -93,7 +89,6 @@ $tempColumns = array (
 	),
 );
 
-t3lib_div::loadTCA('tx_cfcleague_profiles');
-t3lib_extMgm::addTCAcolumns('tx_cfcleague_profiles',$tempColumns,1);
-t3lib_extMgm::addToAllTCAtypes('tx_cfcleague_profiles','tx_t3sportsextended_profiles_phone;;;;1-1-1','','after:email');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_cfcleague_profiles',$tempColumns,1);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_cfcleague_profiles','tx_t3sportsextended_profiles_phone;;;;1-1-1','','after:email');
 ?>
