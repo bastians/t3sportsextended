@@ -1,3 +1,6 @@
-2011-08-26 Bastian Schlenker  <info@be-linked.de>
+v0.0.4 (2018-07-01)
+* Removed some old classes for TYPO3 7.6
 
-	* initial code generated with kickstarter
+v0.0.1 (2011-08-26)
+* initial release
+* initial code generated with kickstarter
