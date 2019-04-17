@@ -32,7 +32,7 @@ $EM_CONF[$_EXTKEY] = array(
         'version' => '0.0.4',
         'constraints' => array(
                 'depends' => array(
-                        'typo3' => '4.5.0-7.6.99',
+                        'typo3' => '4.5.0-8.9.99',
                         'cfc_league' => '',
                         'cfc_league_fe' => '',
                 ),
